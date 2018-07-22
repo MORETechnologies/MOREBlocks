@@ -1,0 +1,69 @@
+[
+  {
+    "type": "move",
+    "lastDummyAlign0": "CENTRE",
+    "message0": "Move / Turn %1 with %2 %% speed",
+    "args0": [
+      {
+        "type": "field_dropdown",
+        "name": "direction",
+        "options": [
+          [
+            "forward",
+            "forward"
+          ],
+          [
+            "left",
+            "left"
+          ],
+          [
+            "right",
+            "right"
+          ],
+          [
+            "backward",
+            "backward"
+          ],
+          [
+            "stop",
+            "stop"
+          ]
+        ]
+      },
+      {
+        "type": "field_number",
+        "name": "speed",
+        "value": 80,
+        "min": 0,
+        "max": 100,
+        "precision": 1
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": ""
+  },
+  {
+    "type": "delay",
+    "lastDummyAlign0": "CENTRE",
+    "message0": "Delay for %1 milliseconds",
+    "args0": [
+      {
+        "type": "field_number",
+        "name": "time",
+        "value": 1000,
+        "min": 25,
+        "max": 32000,
+        "precision": 1
+      }
+    ],
+    "inputsInline": true,
+    "previousStatement": null,
+    "nextStatement": null,
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": ""
+  }
+]
